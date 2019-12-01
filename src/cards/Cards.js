@@ -6,28 +6,27 @@ import img1 from "../assets/astro.png";
 import img2 from "../assets/astrogirl.png";
 import img3 from "../assets/astroneon.png";
 
-
 class Cards extends Component{
   render(){
     return(
-      <div className="cards-wrapper">
-       <div className="container">
-           <div className="box">
+      <div className="container-fluid">
+       <div className="row">
+           <div className="box col-xs col-sm-6 col-md-4">
            <Card imgsrc={img1} title="NASA"
              text="A trip around the Moon"
              link="https://www.nasa.gov/"/>
            </div>
-           <div className="box1">
+           <div className="box col-sx col-sm-6 col-md-4">
              <Card imgsrc={img2} title="SpaceX"
-             text="A trip to Mars"
+             text="Take a walk on Mars"
              link="https://www.spacex.com"/>
            </div>
-           <div className="box2">
+           <div className="box col-sx col-sm-6 col-md-4">
              <Card imgsrc={img3} title="Virgin Galatic"
-             text="Space Adventures"
+             text="Intergalactic Adventures"
              link="https://www.virgingalactic.com/"/>
-        </div>
-      </div>
+           </div>
+         </div>
       </div>
     )
   }

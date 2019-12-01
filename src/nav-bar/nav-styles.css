@@ -1,0 +1,28 @@
+li{
+  padding-left: 1rem
+}
+
+p{
+  padding-top:.5rem
+}
+
+p:hover{
+  color:#25bc46
+}
+
+@media (min-width: 400px) {
+  h1{
+    padding:1rem;
+  }
+}
+
+@media (min-width: 600px) {
+  h1{
+    padding:3rem;
+  }
+}
+@media (min-width: 992px) {
+  .h1{
+    padding:6rem;
+  }
+}
