@@ -8,7 +8,7 @@ body{
 }
 
 .card-body{
-  padding: .5rem 0 !important;
+  padding: .5rem 0;
 }
 
 .card-text{
@@ -35,14 +35,18 @@ img{
 }
 
 /*container layout styling*/
+.wrapper{
+  height: 100vh
+}
+
 .box{
   padding-top:1rem
 }
 
-.container-fluid .row{
-  padding-top:6rem;
+.container-fluid {
+ padding-top:15rem;
+ text-align: center;
 }
-
 
 /* @media (min-width: 576px) { ... } */
 
