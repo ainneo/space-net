@@ -22,6 +22,9 @@ const Nav = props => {
             <a className="nav-link text-success" href="#mission"><p>Mission</p><span className="sr-only">(current)</span></a>
           </li>
           <li className="nav-item active">
+            <a className="nav-link text-success" href="#services"><p>Services</p><span className="sr-only">(current)</span></a>
+          </li>
+          <li className="nav-item active">
             <a className="nav-link text-success" href="#contact"><p>Contact</p><span className="sr-only">(current)</span></a>
           </li>
         </ul>

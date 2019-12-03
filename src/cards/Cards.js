@@ -11,19 +11,12 @@ class Cards extends Component{
     return(
       <div id="mission" className="wrapper">
         <div className="container-fluid">
-          <h1>Mission</h1>
-            <div className="row">
-              <p>SPACE NET wants as many people as
-                possible to experience what it is like to live
-                in space, to circle the Earth, or travel beyond
-                Earth orbit. In the next ten years, our clients
-                will have a choice as to what vehicle to fly to
-                space on, and will be able to choose from multiple
-                different destinations and sources.
-              </p>
+          <div className="text">
+            <h1>{this.props.title}</h1>
+            <p>{this.props.information}</p>
+            <h2>{this.props.subTitle}</h2>
+            <p>{this.props.subInformation}</p>
           </div>
-            <h2>CHOOSE YOUR CARRIER</h2>
-             <p>We will coordinate and plan your trip with the carrier you choose</p>
           <div className="row">
            <div className="box col-xs col-sm-6 col-md-4">
            <Card imgsrc={img1} title="NASA"

@@ -4,7 +4,7 @@ import './landings-styles.css'
 
 
 const hero = {
-  height: '60vh',
+  minHeight: '60vh',
   backgroundSize: "cover",
   backgroundImage: `url("${ heroImg }")`,
 };

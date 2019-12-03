@@ -1,10 +1,6 @@
 .navbar{
-  height:10rem;
-  background: white;
-}
-
-ul{
-background:white;
+  height:5rem;
+  background:white;
 }
 
  nav p{
@@ -16,16 +12,13 @@ nav p:hover{
   color:#25bc46
 }
 
-@media (max-width: 600px){
+@media (max-width: 750px){
   ul{
     background:rgba(192,192,192,0.3);
   }
 }
 
-@media (min-width: 400px) {
-  nav h1{
-    padding:1rem;
-  }
+@media (max-width: 400px) {
   ul{
     margin-left: 1rem
   }
@@ -33,9 +26,8 @@ nav p:hover{
 
 @media (min-width: 600px) {
   nav h1{
-    padding:3rem;
+    padding:2rem;
   }
-
   ul{
     margin-left: 3rem
   }

@@ -1,0 +1,43 @@
+.services {
+  min-height: 50vh;
+  width: 100vw;
+  text-align: center;
+  overflow: hidden;
+  padding-top: 5rem;
+}
+
+.fa{
+   font-size:40px;
+   color:#25bc46
+}
+ .row h4{
+    color:#25bc46
+}
+
+
+
+@media (max-width: 600px) {
+ .services .row{
+    padding:0rem 2rem 0rem 2rem;
+  }
+  .services-text {
+      padding:0rem 2rem 1rem 2rem;
+    }
+}
+
+@media (min-width: 600px) {
+.services .row {
+    padding:0rem 4rem 0rem 4rem;
+  }
+  .services-text {
+      padding:0rem 4rem 2rem 4rem;
+    }
+}
+@media (min-width: 992px) {
+  services .row{
+    padding:0rem 7rem 0rem 7rem;
+  }
+  .services-text {
+        padding:0rem 7rem 3rem 7rem;
+    }
+}
