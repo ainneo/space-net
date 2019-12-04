@@ -39,6 +39,16 @@ input[type=submit]:hover {
   padding-bottom: 5rem
 }
 
+.errorMsg {
+  color: #cc0000;
+  margin-bottom: 12px;
+}
+
+.sucessMsg {
+  color: #6B8E23;
+  margin-bottom: 10px;
+}
+
 @media (max-width: 600px) {
  .contact-container{
     padding: 1rem 3rem 0rem 3rem;
