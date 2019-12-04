@@ -67,6 +67,6 @@ input[type=submit]:hover {
 
 @media (min-width: 1200px) {
 .contact-container{
-    padding: 1rem 30rem 0rem 30rem;
+    padding: 1rem 10rem 0rem 15rem;
   }
 }
