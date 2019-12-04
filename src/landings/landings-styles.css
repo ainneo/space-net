@@ -1,8 +1,7 @@
 .bg-wrapper{
-  margin-top: 10rem; /* space for fixed nav-bar*/
+  padding-top: 8rem;
   min-height: 60vh; /*same height as img*/
   margin: 0 auto;
-  padding-top: 10rem;
 }
 
 .banner{
