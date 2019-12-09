@@ -13,11 +13,11 @@ class Landing extends Component {
   render(){
     return(
       <div id="home" className="bg-wrapper">
-        <figure style={hero}>
+        <div className="banner" style={hero}>
           <h1>{this.props.title}</h1>
           <p>{this.props.subTitle}</p>
           <a href="#button">{this.props.button}</a>
-        </figure>
+        </div>
       </div>
 
     )

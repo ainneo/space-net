@@ -1,27 +1,29 @@
 .bg-wrapper{
-  margin-top: 10rem; /* space for fixed nav-bar*/
+  padding-top: 8rem;
   min-height: 60vh; /*same height as img*/
   margin: 0 auto;
+}
+
+.banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding-top: 10rem;
 }
 
-figure{
-  padding-top: 10rem
-}
-
-figure h1 {
+.banner h1 {
   margin: 0;
   font-size: 4rem;
   color: #ffffff;
   }
 
-figure p {
+.banner p {
   color: white;
   font-size: 1.9rem
 }
 
-figure a {
+.banner a {
   border: #28a745 1px solid;
   border-radius: .25rem;
   padding:.5rem;
@@ -29,21 +31,21 @@ figure a {
   color: white;
 }
 
-figure a:hover {
+.banner a:hover {
   text-decoration: none;
   background: white;
   color: #28a745
 }
 
 @media (max-width: 600px){
-  figure{
-    padding: 5rem 2rem 0rem 2rem;
+  .banner{
+    padding: 0rem 2rem 0rem 2rem;
   }
 
-  figure h1{
+  .banner h1{
     font-size: 3rem;
   }
-  figure p {
+  .banner p {
     font-size: 1.4rem
   }
 }

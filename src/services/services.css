@@ -1,9 +1,12 @@
 .services {
-  min-height: 50vh;
-  width: 100vw;
-  text-align: center;
+  min-height: 100%;
   overflow: hidden;
-  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 1rem
 }
 
 .fa{
@@ -15,13 +18,12 @@
 }
 
 
-
 @media (max-width: 600px) {
  .services .row{
-    padding:0rem 2rem 0rem 2rem;
+    padding:2rem 2rem 0rem 2rem;
   }
   .services-text {
-      padding:0rem 2rem 1rem 2rem;
+      padding:4rem 2rem 1rem 2rem;
     }
 }
 
@@ -30,7 +32,7 @@
     padding:0rem 4rem 0rem 4rem;
   }
   .services-text {
-      padding:0rem 4rem 2rem 4rem;
+      padding:5rem 4rem 2rem 4rem;
     }
 }
 @media (min-width: 992px) {
@@ -38,6 +40,6 @@
     padding:0rem 7rem 0rem 7rem;
   }
   .services-text {
-        padding:0rem 7rem 3rem 7rem;
+        padding:6rem 7rem 0rem 7rem;
     }
 }
