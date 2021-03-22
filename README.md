@@ -7,7 +7,7 @@ This is a simple responsive react.js business website.
 * JavaScript
 * CSS3
 
-#### view it live here: https://ainneo.github.io/cyberao/
+#### view it live here: https://space-net.netlify.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
