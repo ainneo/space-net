@@ -1,12 +1,12 @@
 ## Description
-This is a simple responsive react.js website.
+This is a simple responsive react.js business website.
 
 ## Technologies Used
 * React.js
 * BootStrap
 * JavaScript
 * CSS3
-* 
+
 #### view it live here: https://ainneo.github.io/cyberao/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
